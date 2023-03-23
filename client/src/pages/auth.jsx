@@ -1,4 +1,11 @@
+import Register from "../components/Register";
+import Login from "../components/Login";
 const Auth = () => {
-  return <div>Auth</div>;
+  return (
+    <div className="auth">
+      <Login />
+      <Register />
+    </div>
+  );
 };
 export default Auth;
